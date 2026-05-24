@@ -1,0 +1,28 @@
+{
+  "name": "nightcode",
+  "version": "0.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "description": "",
+  "keywords": [
+    "nightcode",
+    "ai",
+    "cli",
+    "terminal"
+  ],
+  "homepage": "https://github.com/ShethSamarth/nightcode#readme",
+  "bugs": {
+    "url": "https://github.com/ShethSamarth/nightcode/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShethSamarth/nightcode.git"
+  },
+  "license": "MIT",
+  "author": "Samarth Sheth",
+  "scripts": {
+    "dev:cli": "bun run --watch packages/cli/src/index.tsx"
+  }
+}
+
